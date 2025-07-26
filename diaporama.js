@@ -48,7 +48,7 @@ document.addEventListener('DOMContentLoaded', function () {
         // Arrête l'intervalle précédent pour éviter les conflits
         clearInterval(slideInterval);
         // Définit un nouvel intervalle
-        slideInterval = setInterval(nextSlide, 7000); // Change de slide toutes les 7 secondes
+        slideInterval = setInterval(nextSlide, 3500); // Change de slide toutes les 7 secondes
     }
 
     // --- Écouteurs d'événements ---
