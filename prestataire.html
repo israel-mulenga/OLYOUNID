@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nos Prestataires | ALLYOUNEED</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="prestataire.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    />
+  </head>
+  <body>
+    <header class="header">
+      <div class="container header__container">
+        <a href="index.html" class="header__logo">ALLYOUNEED</a>
+        <nav class="header__nav">
+          <a href="index.html" class="header__link">Accueil</a>
+          <a href="prestataires.html" class="header__link active"
+            >Nos prestataires</a
+          >
+        </nav>
+      </div>
+    </header>
+
+    <main class="container page-content">
+      <div class="filters">
+        <div class="filters__group search-filter">
+          <div class="search-input-wrapper">
+            <input
+              id="searchInput"
+              type="text"
+              placeholder="Rechercher par nom, service..."
+              class="form-input"
+            />
+            <button id="searchBtn" class="btn btn--primary">
+              <i class="fas fa-search"></i>
+              <span class="search-btn-text">Rechercher</span>
+            </button>
+          </div>
+        </div>
+        <div class="filters__group">
+          <select id="secteurSelect" class="form-select">
+            <option value="">Tous les secteurs</option>
+          </select>
+        </div>
+        <div class="filters__group">
+          <select id="typeSelect" class="form-select">
+            <option value="">Tous les types</option>
+            <option value="entreprise">Entreprises</option>
+            <option value="prestataire">Prestataires</option>
+          </select>
+        </div>
+      </div>
+
+      <div class="results-info">
+        <p id="resultsCount" class="results-count-text">
+          Chargement des profils...
+        </p>
+      </div>
+
+      <div id="noResults" class="no-results hidden">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          class="no-results__icon"
+          fill="none"
+          viewBox="0 0 24 24"
+          stroke="currentColor"
+        >
+          <path
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="2"
+            d="M9.172 16.172a4 4 0 015.656 0M9 10h.01M15 10h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
+          />
+        </svg>
+        <h3 class="no-results__title">Aucun résultat trouvé</h3>
+        <p class="no-results__text">
+          Essayez de modifier vos critères de recherche.
+        </p>
+      </div>
+
+      <div id="cardsContainer" class="cards-grid"></div>
+    </main>
+
+    <div id="modal" class="modal hidden">
+      <div class="modal__content">
+        <button id="closeModal" class="modal__close-btn">&times;</button>
+        <div class="modal__header">
+          <img
+            id="modalImage"
+            src=""
+            alt="Photo du prestataire"
+            class="modal__image"
+          />
+        </div>
+        <div class="modal__body">
+          <div class="modal__info-header">
+            <div>
+              <h2 id="modalNom" class="modal__name"></h2>
+              <div class="modal__tags">
+                <span id="modalType" class="tag tag--type"></span>
+                <span id="modalSecteur" class="tag tag--secteur"></span>
+              </div>
+            </div>
+            <div id="modalCotation" class="modal__rating"></div>
+          </div>
+          <div class="modal__bio-section">
+            <h3 class="modal__section-title">À propos</h3>
+            <p id="modalBio" class="modal__bio"></p>
+            <button id="whatsappBtn" class="modal__whatsapp">
+              Écrire sur WhatsApp
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+    <script src="prestataire.js"></script>
+  </body>
+</html>

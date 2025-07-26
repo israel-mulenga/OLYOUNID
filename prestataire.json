@@ -1,0 +1,171 @@
+[
+  {
+    "type": "entreprise",
+    "nom": "Tech Congo",
+    "image": "https://i.pravatar.cc/300?u=techcongo",
+    "bio": "Entreprise innovante dans la transformation digitale en Afrique centrale.",
+    "secteur": "Technologie",
+    "cotation": 4
+  },
+  {
+    "type": "prestataire",
+    "nom": "Clarisse Kabeya",
+    "image": "https://i.pravatar.cc/300?u=clarissekabeya",
+    "bio": "Développeuse web freelance spécialisée dans les plateformes mobiles en RDC.",
+    "secteur": "Développement Web",
+    "cotation": 5
+  },
+  {
+    "type": "entreprise",
+    "nom": "Bâtir RDC",
+    "image": "https://i.pravatar.cc/300?u=batirrdc",
+    "bio": "Entreprise de construction et rénovation basée à Lubumbashi.",
+    "secteur": "BTP",
+    "cotation": 3
+  },
+  {
+    "type": "prestataire",
+    "nom": "Patrick Ilunga",
+    "image": "https://i.pravatar.cc/300?u=patrickilunga",
+    "bio": "Consultant en marketing digital, accompagne les PME congolaises vers la réussite en ligne.",
+    "secteur": "Marketing",
+    "cotation": 4
+  },
+  {
+    "type": "prestataire",
+    "nom": "Chantal Mwamba",
+    "image": "https://i.pravatar.cc/300?u=chantalmwamba",
+    "bio": "Graphiste freelance, crée des identités visuelles qui valorisent la culture congolaise.",
+    "secteur": "Design Graphique",
+    "cotation": 5
+  },
+  {
+    "type": "entreprise",
+    "nom": "Congo Énergie Verte",
+    "image": "https://i.pravatar.cc/300?u=energieverte",
+    "bio": "Spécialiste des solutions écologiques pour les zones rurales en RDC.",
+    "secteur": "Environnement",
+    "cotation": 4
+  },
+  {
+    "type": "prestataire",
+    "nom": "Jean-Paul Tshibangu",
+    "image": "https://i.pravatar.cc/300?u=jeanpaultshibangu",
+    "bio": "Photographe d'événements basé à Kinshasa, expert en mariage et portraits.",
+    "secteur": "Photographie",
+    "cotation": 5
+  },
+  {
+    "type": "entreprise",
+    "nom": "Délices du Katanga",
+    "image": "https://i.pravatar.cc/300?u=deliceskatanga",
+    "bio": "Traiteur haut de gamme pour événements professionnels et festifs.",
+    "secteur": "Restauration",
+    "cotation": 4
+  },
+  {
+    "type": "prestataire",
+    "nom": "Marius Kazadi",
+    "image": "https://i.pravatar.cc/300?u=mariuskazadi",
+    "bio": "Consultant en stratégie pour startups congolaises et jeunes entrepreneurs.",
+    "secteur": "Consulting",
+    "cotation": 5
+  },
+  {
+    "type": "entreprise",
+    "nom": "EcoBât RDC",
+    "image": "https://i.pravatar.cc/300?u=ecobatrdc",
+    "bio": "Entreprise spécialisée dans la construction durable au Congo.",
+    "secteur": "BTP",
+    "cotation": 4
+  },
+  {
+    "type": "prestataire",
+    "nom": "Déborah Mulumba",
+    "image": "https://i.pravatar.cc/300?u=deborahmulumba",
+    "bio": "Rédactrice web freelance, crée du contenu optimisé pour les entreprises locales.",
+    "secteur": "Rédaction",
+    "cotation": 5
+  },
+  {
+    "type": "entreprise",
+    "nom": "Solutions Digitales RDC",
+    "image": "https://i.pravatar.cc/300?u=digitalrdc",
+    "bio": "Entreprise tech congolaise, développe des apps mobiles et web sur mesure.",
+    "secteur": "Technologie",
+    "cotation": 4
+  },
+  {
+    "type": "prestataire",
+    "nom": "Sylvain Nsimba",
+    "image": "https://i.pravatar.cc/300?u=sylvainnsimba",
+    "bio": "Expert en cybersécurité basé à Kinshasa, protège les données des entreprises.",
+    "secteur": "Cybersécurité",
+    "cotation": 5
+  },
+  {
+    "type": "entreprise",
+    "nom": "Artisans du Congo",
+    "image": "https://i.pravatar.cc/300?u=artisanscongo",
+    "bio": "Coopérative dédiée aux produits artisanaux durables made in RDC.",
+    "secteur": "Artisanat",
+    "cotation": 4
+  },
+  {
+    "type": "prestataire",
+    "nom": "Prisca Lokanga",
+    "image": "https://i.pravatar.cc/300?u=prisca",
+    "bio": "Coach en développement personnel et bien-être, accompagne les Congolais vers leurs objectifs.",
+    "secteur": "Coaching",
+    "cotation": 5
+  },
+  {
+    "type": "prestataire",
+    "nom": "Grégoire Mbuyi",
+    "image": "https://i.pravatar.cc/300?u=gregoirembuyi",
+    "bio": "Consultant SEO, booste la visibilité web des entreprises locales.",
+    "secteur": "Marketing Digital",
+    "cotation": 4
+  },
+  {
+    "type": "prestataire",
+    "nom": "Esther Mukendi",
+    "image": "https://i.pravatar.cc/300?u=esthermukendi",
+    "bio": "Experte RH, accompagne les PME dans la gestion des talents.",
+    "secteur": "Ressources Humaines",
+    "cotation": 5
+  },
+  {
+    "type": "entreprise",
+    "nom": "LogiSmart RDC",
+    "image": "https://i.pravatar.cc/300?u=logismart",
+    "bio": "Entreprise de logistique, optimise les chaînes d’approvisionnement en Afrique centrale.",
+    "secteur": "Logistique",
+    "cotation": 4
+  },
+  {
+    "type": "prestataire",
+    "nom": "Bénédicte Kabuya",
+    "image": "https://i.pravatar.cc/300?u=benedictekabuya",
+    "bio": "Designer UX/UI freelance, conçoit des interfaces adaptées au public africain.",
+    "secteur": "Design",
+    "cotation": 5
+  },
+  {
+    "type": "entreprise",
+    "nom": "Congo AgroTech",
+    "image": "https://i.pravatar.cc/300?u=congoagrotech",
+    "bio": "Entreprise agroalimentaire, développe des solutions durables pour l’agriculture congolaise.",
+    "secteur": "Agroalimentaire",
+    "cotation": 4
+  },
+
+  {
+    "type": "prestataire",
+    "nom": "Jean-Paul Tshibangu",
+    "image": "https://images.unsplash.com/photo-1604537529428-15bcbeecfe4d?ixlib=rb-4.0.3&auto=format&fit=crop&w=300&q=80",
+    "bio": "Photographe d'événements basé à Kinshasa, expert en mariage et portraits.",
+    "secteur": "Photographie",
+    "cotation": 5
+  }
+]
