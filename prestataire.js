@@ -149,7 +149,7 @@ document.addEventListener("DOMContentLoaded", function () {
     modalBio.textContent = prestataire.bio;
     modal.classList.remove("hidden");
     const whatsappBtn = document.getElementById("whatsappBtn");
-    const numeroWhatsApp = "243851208563"; // <<<<< À modifier par ton numéro réel
+    const numeroWhatsApp = "243816956984"; // <<<<< À modifier par ton numéro réel
 
     const message = `Bonjour, je suis intéressé par le profil ${
       prestataire.nom
